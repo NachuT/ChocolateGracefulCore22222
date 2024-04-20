@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+  width: 100%;
+  .sunshine{
+    position: relative;
+    width: 700px; /* adjust the width to match your image */
+    height: auto;
+    animation: sunshine 3s ease-in-out infinite;
+  }
+
+  @keyframes sunshine {
+    0% {
+      filter: brightness(100%);
+    }
+    50% {
+      filter: brightness(50%);
+    }
+    100% {
+      filter: brightness(100%);
+    }
+  }
+  body{
+    text-align: center;
+    font-family: 'Sun';
+     background: black;
+      color: white;
+    }
+  }
+  img{
+    img-align: center;
+  }
